@@ -2,13 +2,36 @@
   "name": "inav-dump-parser",
   "version": "0.0.1",
   "description": "Parser library for INav CLI dump",
-  "type": "module",
-  "module": "index.mjs",
-  "exports": "./index.mjs",
-  "directories": {
-    "lib": "lib"
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "jest --watch",
+    "test": "jest",
+    "build": "rollup -c rollup.config.js"
   },
-  "keywords": [ "inav" ],
+  "keywords": [
+    "inav"
+  ],
   "author": "Matthias Hryniszak",
-  "license": "LGPL"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/array-prototype-functions"
+  },
+  "bugs": {
+    "email": "padcom@gmail.com",
+    "url": "https://github.com/padcom/array-prototype-functions/issues"
+  },
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/padcom"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.17",
+    "jest": "^27.5.1",
+    "rollup": "^2.67.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
 }
