@@ -1,6 +1,6 @@
 {
   "name": "inav-dump-parser",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Parser library for INav CLI dump",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "main": "./dist/index.js",
