@@ -1,6 +1,6 @@
 {
   "name": "inav-dump-parser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Parser library for INav CLI dump",
   "author": "Matthias Hryniszak <padcom@gmail.com>",
   "main": "./dist/index.js",
@@ -10,6 +10,9 @@
     "build": "rollup -c rollup.config.js",
     "prepublishOnly": "npm install && npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "inav"
   ],
