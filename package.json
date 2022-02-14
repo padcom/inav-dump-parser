@@ -1,0 +1,14 @@
+{
+  "name": "inav-dump-parser",
+  "version": "0.0.1",
+  "description": "Parser library for INav CLI dump",
+  "type": "module",
+  "module": "index.mjs",
+  "exports": "./index.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [ "inav" ],
+  "author": "Matthias Hryniszak",
+  "license": "LGPL"
+}
